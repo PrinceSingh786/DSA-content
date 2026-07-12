@@ -1,0 +1,73 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+std::vector<long long> valid_multipliers;
+
+void prepare_multipliers() {
+    for (int i = 0; i <= 9; ++i) {
+        for (int j = i + 1; j <= 9; ++j) {
+            std::vector<long long> q;
+            if (i > 0) q.push_back(i);
+            if (j > 0) q.push_back(j);
+            
+            int ptr = 0;
+            while (ptr < q.size()) {
+                long long val = q[ptr++];
+                if (val >= 2 && val <= 1000000000LL) {
+                    valid_multipliers.push_back(val);
+                }
+                if (val <= 100000000LL) {
+                    long long next1 = val * 10 + i;
+                    long long next2 = val * 10 + j;
+                    if (next1 > val) q.push_back(next1);
+                    if (next2 > val && next2 != next1) q.push_back(next2);
+                }
+            }
+        }
+    }
+    std::sort(valid_multipliers.begin(), valid_multipliers.end());
+    valid_multipliers.erase(std::unique(valid_multipliers.begin(), valid_multipliers.end()), valid_multipliers.end());
+}
+
+bool check_validity(long long num) {
+    int mask = 0;
+    int diff_digits = 0;
+    while (num > 0) {
+        int rem = num % 10;
+        if ((mask & (1 << rem)) == 0) {
+            diff_digits++;
+            mask |= (1 << rem);
+        }
+        if (diff_digits > 2) return false;
+        num /= 10;
+    }
+    return true;
+}
+
+void handle_query() {
+    long long base_val;
+    std::cin >> base_val;
+    for (long long mult : valid_multipliers) {
+        if (check_validity(base_val * mult)) {
+            std::cout << mult << "\n";
+            return;
+        }
+    }
+}
+
+int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    
+    prepare_multipliers();
+    
+    int tests;
+    if (std::cin >> tests) {
+        while (tests--) {
+            handle_query();
+        }
+    }
+    
+    return 0;
+}
