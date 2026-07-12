@@ -28,9 +28,8 @@
 12. switch
 13. loops
 14. nested loops
-15. methods/functions
-16. arrays
-17. String basics
+15. Pattern Printing
+16. methods/functions
 
 
 
@@ -107,6 +106,7 @@
 * GCD
 * LCM
 * Euclid Algorithm
+
 
 
 **Mathematical Problems**
@@ -1010,7 +1010,7 @@ Postorder
 
 Level Order
 
-&#x20;  
+&#x20;
 
 
 

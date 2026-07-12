@@ -18,14 +18,14 @@
 4. Flowcharts
 5. Pseudocode
 6. Input → Process → Output
-7. Variables  
+7. Variables
 8. Data Types
 9. Operators
 10. Input/Output
 11. if-else
 12. switch
 13. loops    -> Output guessing
-14. nested loops  
+14. nested loops
 15. Pattern Printing
 16. methods/functions
 

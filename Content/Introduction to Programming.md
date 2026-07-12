@@ -1,184 +1,16 @@
-### **# 1. INTRODUCTION ABOUT MYSELF**
+# **Intro to Programming**
 
 
 
-\## Introduction Points
 
 
 
-\### Greeting
 
-Good afternoon everyone.
 
 
 
-I'm Prince Singh, your CodeChef Trainer.
 
-
-
-\---
-
-
-
-\### Education
-
-• B.Tech in Computer Science \& Engineering
-
-&#x20; MMMUT, Gorakhpur
-
-
-
-• CGPA: 8.2
-
-
-
-\---
-
-
-
-\### Journey
-
-• 97 percentile in JEE Main.
-
-
-
-• Appeared for the NDA (Navy) SSB Interview.
-
-
-
-• Learned the importance of discipline and consistency.
-
-
-
-\---
-
-
-
-\### Placement Experience
-
-• Attempted 100+ company assessments.
-
-
-
-• Gave 40+ technical interviews.
-
-
-
-• Selected in TCS Ninja.
-
-
-
-\---
-
-
-
-\### Why I'm Here
-
-• Joined CodeChef as a Trainer.
-
-
-
-• Passionate about teaching DSA and problem solving.
-
-
-
-\---
-
-
-
-\### Coding Experience
-
-• Solved 2000+ DSA problems.
-
-
-
-• Platforms:
-
-&#x20; - LeetCode
-
-&#x20; - CodeChef
-
-&#x20; - GeeksforGeeks
-
-
-
-\---
-
-
-
-\### What You'll Learn
-
-• Data Structures \& Algorithms (DSA)
-
-
-
-• Competitive Programming
-
-
-
-• Placement Preparation
-
-
-
-• Logical Thinking
-
-&#x20; (Not mugging up solutions)
-
-
-
-\---
-
-
-
-\### My Expectations
-
-• Attend classes regularly.
-
-
-
-• Ask questions without hesitation.
-
-
-
-• Practice coding daily.
-
-
-
-• Stay consistent.
-
-
-
-\---
-
-
-
-\### Closing
-
-"If you start from zero but stay consistent, you'll definitely improve.
-
-Let's learn together and make this program worthwhile.
-
-
-
-Thank you!"
-
-
-
-==================================================================
-
-
-
-
-
-
-
-
-
-
-
-
-
-### **# 2. VARIABLES**
+### **# 1. VARIABLES**
 
 
 
@@ -206,7 +38,7 @@ int age = 20;
 
 
 
-### **# 3. DATA TYPES**
+### **# 2. DATA TYPES**
 
 
 
@@ -260,7 +92,7 @@ Primitive Data Types
 
 
 
-## **# 4. OPERATORS**
+## **# 3. OPERATORS**
 
 
 
@@ -316,7 +148,7 @@ System.out.println(a + b);   // 13
 
 System.out.println(a - b);   // 7
 
-System.out.println(a \* b);   // 30
+System.out.println(a \\\\\\\* b);   // 30
 
 System.out.println(a / b);   // 3
 
@@ -406,7 +238,7 @@ System.out.println(x);     // 15
 
 
 
-x \*= 2;
+x \\\\\\\*= 2;
 
 System.out.println(x);     // 30
 
@@ -512,7 +344,7 @@ boolean hasID = true;
 
 
 
-System.out.println(age >= 18 \&\& hasID);   // true
+System.out.println(age >= 18 \\\\\\\&\\\\\\\& hasID);   // true
 
 System.out.println(age < 18 || hasID);    // true
 
@@ -632,7 +464,7 @@ Similarly,
 
 ```java
 
-\--a;
+\\\\--a;
 
 a--;
 
@@ -658,7 +490,7 @@ Syntax:
 
 ```java
 
-condition ? value\_if\_true : value\_if\_false;
+condition ? value\\\\\\\_if\\\\\\\_true : value\\\\\\\_if\\\\\\\_false;
 
 ```
 
@@ -720,6 +552,363 @@ System.out.println(result);
 
 
 
+## **# 4. INPUT / OUTPUT**
+
+
+
+Practice Question:
+
+Take your PRN Number as input and print it.
+
+
+
+Example:
+
+
+
+```java
+
+import java.util.Scanner;
+
+
+
+Scanner sc = new Scanner(System.in);
+
+
+
+System.out.print("Enter PRN Number: ");
+
+String prn = sc.nextLine();
+
+
+
+System.out.println("PRN Number: " + prn);
+
+```
+
+
+
+==================================================================
+
+
+
+# **# 5. IF - ELSE**
+
+
+
+The if-else statement is used to make decisions based on a condition.
+
+
+
+Flow of Problems
+
+
+
+Voting Eligibility
+
+&#x20;       │
+
+&#x20;       ▼
+
+Positive / Negative / Zero
+
+&#x20;       │
+
+&#x20;       ▼
+
+Even or Odd
+
+&#x20;       │
+
+&#x20;       ▼
+
+Largest of Two Numbers
+
+&#x20;       │
+
+&#x20;       ▼
+
+Largest of Three Numbers
+
+&#x20;       │
+
+&#x20;       ▼
+
+Leap Year
+
+&#x20;       │
+
+&#x20;       ▼
+
+Grade Calculator
+
+&#x20;       │
+
+&#x20;       ▼
+
+Electricity Bill
+
+&#x20;       │
+
+&#x20;       ▼
+
+Income Tax Slab
+
+
+
+==================================================================
+
+
+
+\## Electricity Bill
+
+
+
+```java
+
+if(units <= 100){
+
+&#x20;   bill = units \* 5;
+
+}
+
+else if(units <= 200){
+
+&#x20;   bill = (100 \* 5) + ((units - 100) \* 7);
+
+}
+
+else{
+
+&#x20;   bill = (100 \* 5) + (100 \* 7)
+
+&#x20;        + ((units - 200) \* 10);
+
+}
+
+```
+
+
+
+==================================================================
+
+
+
+\## Income Tax Slab
+
+
+
+```java
+
+if(income <= 250000){
+
+&#x20;   tax = 0;
+
+}
+
+else if(income <= 500000){
+
+&#x20;   tax = income \* 0.05;
+
+}
+
+else if(income <= 1000000){
+
+&#x20;   tax = income \* 0.20;
+
+}
+
+else{
+
+&#x20;   tax = income \* 0.30;
+
+}
+
+```
+
+
+
+==================================================================
+
+
+
+#### **## Else-If Ladder**
+
+
+
+```java
+
+if(condition1){
+
+
+
+}
+
+else if(condition2){
+
+
+
+}
+
+else if(condition3){
+
+
+
+}
+
+else{
+
+
+
+}
+
+```
+
+
+
+==================================================================
+
+
+
+### **## Nested If**
+
+
+
+```java
+
+int age = 22;
+
+boolean license = true;
+
+
+
+if(age >= 18){
+
+
+
+&#x20;   if(license){
+
+&#x20;       System.out.println("Can Drive");
+
+&#x20;   }
+
+&#x20;   else{
+
+&#x20;       System.out.println("Need License");
+
+&#x20;   }
+
+
+
+}
+
+else{
+
+&#x20;   System.out.println("Too Young");
+
+}
+
+```
+
+
+
+==================================================================
+
+
+
+### **#  SWITCH STATEMENT**
+
+
+
+Syntax
+
+
+
+```java
+
+switch(expression){
+
+
+
+&#x20;   case value1:
+
+&#x20;       statements;
+
+&#x20;       break;
+
+
+
+&#x20;   case value2:
+
+&#x20;       statements;
+
+&#x20;       break;
+
+
+
+&#x20;   default:
+
+&#x20;       statements;
+
+}
+
+```
+
+
+
+==================================================================
+
+
+
+\## Example
+
+
+
+```java
+
+int day = 3;
+
+
+
+switch(day){
+
+
+
+&#x20;   case 1:
+
+&#x20;       System.out.println("Monday");
+
+&#x20;       break;
+
+
+
+&#x20;   case 2:
+
+&#x20;       System.out.println("Tuesday");
+
+&#x20;       break;
+
+
+
+&#x20;   case 3:
+
+&#x20;       System.out.println("Wednesday");
+
+&#x20;       break;
+
+
+
+&#x20;   default:
+
+&#x20;       System.out.println("Invalid");
+
+}
+
+```
+
+
+
+==================================================================
 
 
 
@@ -732,7 +921,10 @@ System.out.println(result);
 
 
 
-## **# LOOPS**
+
+
+
+## **# 6. LOOPS**
 
 
 
@@ -778,7 +970,7 @@ Print "Hello" 1000 times.
 
 for(initialization; condition; update){
 
-&#x20;   // body
+\\\&#x20;   // body
 
 }
 
@@ -794,7 +986,7 @@ for(initialization; condition; update){
 
 for(int i = 1; i <= 4; i++){
 
-&#x20;   System.out.println(i);
+\\\&#x20;   System.out.println(i);
 
 }
 
@@ -814,7 +1006,7 @@ Print even numbers from 2 to 20
 
 for(int i = 2; i <= 20; i += 2){
 
-&#x20;   System.out.print(i + " ");
+\\\&#x20;   System.out.print(i + " ");
 
 }
 
@@ -830,7 +1022,7 @@ Print multiples of 5
 
 for(int i = 5; i <= 100; i += 5){
 
-&#x20;   System.out.print(i + " ");
+\\\&#x20;   System.out.print(i + " ");
 
 }
 
@@ -860,7 +1052,7 @@ for(int i = 5; i <= 100; i += 5){
 
 for(int i = 1; i <= 5; i++){
 
-&#x20;   System.out.print(i + " ");
+\\\&#x20;   System.out.print(i + " ");
 
 }
 
@@ -876,7 +1068,7 @@ for(int i = 1; i <= 5; i++){
 
 for(int i = 5; i >= 1; i--){
 
-&#x20;   System.out.print(i + " ");
+\\\&#x20;   System.out.print(i + " ");
 
 }
 
@@ -892,7 +1084,7 @@ for(int i = 5; i >= 1; i--){
 
 for(int i = 2; i <= 10; i += 2){
 
-&#x20;   System.out.print(i + " ");
+\\\&#x20;   System.out.print(i + " ");
 
 }
 
@@ -908,7 +1100,7 @@ for(int i = 2; i <= 10; i += 2){
 
 for(int i = 1; i <= 10; i += 3){
 
-&#x20;   System.out.print(i + " ");
+\\\&#x20;   System.out.print(i + " ");
 
 }
 
@@ -924,7 +1116,7 @@ for(int i = 1; i <= 10; i += 3){
 
 for(int i = 10; i > 0; i -= 2){
 
-&#x20;   System.out.print(i + " ");
+\\\&#x20;   System.out.print(i + " ");
 
 }
 
@@ -974,7 +1166,7 @@ for(int i = 10; i > 0; i -= 2){
 
 while(condition){
 
-&#x20;   // body
+\\\&#x20;   // body
 
 }
 
@@ -994,9 +1186,9 @@ int i = 1;
 
 while(i <= 4){
 
-&#x20;   System.out.println(i);
+\\\&#x20;   System.out.println(i);
 
-&#x20;   i++;
+\\\&#x20;   i++;
 
 }
 
@@ -1032,9 +1224,9 @@ int i = 1;
 
 while(i <= 5){
 
-&#x20;   System.out.println(i);
+\\\&#x20;   System.out.println(i);
 
-&#x20;   i++;
+\\\&#x20;   i++;
 
 }
 
@@ -1054,9 +1246,9 @@ int i = 2;
 
 while(i <= 10){
 
-&#x20;   System.out.print(i + " ");
+\\\&#x20;   System.out.print(i + " ");
 
-&#x20;   i = i + 2;
+\\\&#x20;   i = i + 2;
 
 }
 
@@ -1076,9 +1268,9 @@ int i = 10;
 
 while(i >= 1){
 
-&#x20;   System.out.print(i + " ");
+\\\&#x20;   System.out.print(i + " ");
 
-&#x20;   i--;
+\\\&#x20;   i--;
 
 }
 
@@ -1098,9 +1290,9 @@ int i = 1;
 
 while(i <= 5){
 
-&#x20;   System.out.print(i \* i + " ");
+\\\&#x20;   System.out.print(i \\\\\\\* i + " ");
 
-&#x20;   i++;
+\\\&#x20;   i++;
 
 }
 
@@ -1120,9 +1312,9 @@ int i = 1;
 
 while(i <= 5){
 
-&#x20;   System.out.print(i + 2 + " ");
+\\\&#x20;   System.out.print(i + 2 + " ");
 
-&#x20;   i++;
+\\\&#x20;   i++;
 
 }
 
@@ -1158,7 +1350,7 @@ while(i <= 5){
 
 do{
 
-&#x20;   // body
+\\\&#x20;   // body
 
 }
 
@@ -1180,9 +1372,9 @@ int i = 1;
 
 do{
 
-&#x20;   System.out.println(i);
+\\\&#x20;   System.out.println(i);
 
-&#x20;   i++;
+\\\&#x20;   i++;
 
 }
 
@@ -1224,9 +1416,9 @@ int i = 1;
 
 do{
 
-&#x20;   System.out.println(i);
+\\\&#x20;   System.out.println(i);
 
-&#x20;   i++;
+\\\&#x20;   i++;
 
 }
 
@@ -1248,9 +1440,9 @@ int i = 10;
 
 do{
 
-&#x20;   System.out.println(i);
+\\\&#x20;   System.out.println(i);
 
-&#x20;   i++;
+\\\&#x20;   i++;
 
 }
 
@@ -1272,9 +1464,9 @@ int i = 10;
 
 do{
 
-&#x20;   System.out.print(i + " ");
+\\\&#x20;   System.out.print(i + " ");
 
-&#x20;   i -= 3;
+\\\&#x20;   i -= 3;
 
 }
 
@@ -1296,9 +1488,9 @@ int i = 3;
 
 do{
 
-&#x20;   System.out.print(i \* 2 + " ");
+\\\&#x20;   System.out.print(i \\\\\\\* 2 + " ");
 
-&#x20;   i++;
+\\\&#x20;   i++;
 
 }
 
@@ -1320,11 +1512,11 @@ int i = 1;
 
 do{
 
-&#x20;   System.out.print(i + " ");
+\\\&#x20;   System.out.print(i + " ");
 
-&#x20;   i++;
+\\\&#x20;   i++;
 
-&#x20;   i++;
+\\\&#x20;   i++;
 
 }
 
@@ -1346,9 +1538,9 @@ int i = 2;
 
 do{
 
-&#x20;   System.out.print(i \* i + " ");
+\\\&#x20;   System.out.print(i \\\\\\\* i + " ");
 
-&#x20;   i += 2;
+\\\&#x20;   i += 2;
 
 }
 
@@ -1376,7 +1568,7 @@ while(i <= 8);
 
 
 
-## **# 9. NESTED LOOPS**
+# **# 7. NESTED LOOPS**
 
 
 
@@ -1428,15 +1620,15 @@ for(int i = 1; i <= 3; i++){
 
 
 
-&#x20;   for(int j = 1; j <= 5; j++){
+\\\&#x20;   for(int j = 1; j <= 5; j++){
 
-&#x20;       System.out.print("\*");
+\\\&#x20;       System.out.print("\\\\\\\*");
 
-&#x20;   }
+\\\&#x20;   }
 
 
 
-&#x20;   System.out.println();
+\\\&#x20;   System.out.println();
 
 }
 
@@ -1470,15 +1662,15 @@ for(int i = 1; i <= 3; i++){
 
 
 
-&#x20;   for(int j = 1; j <= 5; j++){
+\\\&#x20;   for(int j = 1; j <= 5; j++){
 
-&#x20;       System.out.print(j);
+\\\&#x20;       System.out.print(j);
 
-&#x20;   }
+\\\&#x20;   }
 
 
 
-&#x20;   System.out.println();
+\\\&#x20;   System.out.println();
 
 }
 
@@ -1512,15 +1704,15 @@ for(int i = 1; i <= 3; i++){
 
 
 
-&#x20;   for(int j = 1; j <= 5; j++){
+\\\&#x20;   for(int j = 1; j <= 5; j++){
 
-&#x20;       System.out.print(i);
+\\\&#x20;       System.out.print(i);
 
-&#x20;   }
+\\\&#x20;   }
 
 
 
-&#x20;   System.out.println();
+\\\&#x20;   System.out.println();
 
 }
 
@@ -1554,15 +1746,15 @@ for(int i = 1; i <= 2; i++){
 
 
 
-&#x20;   for(int j = 1; j <= 3; j++){
+\\\&#x20;   for(int j = 1; j <= 3; j++){
 
-&#x20;       System.out.print("\*");
+\\\&#x20;       System.out.print("\\\\\\\*");
 
-&#x20;   }
+\\\&#x20;   }
 
 
 
-&#x20;   System.out.println();
+\\\&#x20;   System.out.println();
 
 }
 
@@ -1594,15 +1786,15 @@ for(int i = 1; i <= 3; i++){
 
 
 
-&#x20;   for(int j = 1; j <= 2; j++){
+\\\&#x20;   for(int j = 1; j <= 2; j++){
 
-&#x20;       System.out.print(i);
+\\\&#x20;       System.out.print(i);
 
-&#x20;   }
+\\\&#x20;   }
 
 
 
-&#x20;   System.out.println();
+\\\&#x20;   System.out.println();
 
 }
 
@@ -1636,15 +1828,15 @@ for(int i = 1; i <= 4; i++){
 
 
 
-&#x20;   for(int j = 1; j <= 4; j++){
+\\\&#x20;   for(int j = 1; j <= 4; j++){
 
-&#x20;       System.out.print(i + j);
+\\\&#x20;       System.out.print(i + j);
 
-&#x20;   }
+\\\&#x20;   }
 
 
 
-&#x20;   System.out.println();
+\\\&#x20;   System.out.println();
 
 }
 
@@ -1680,7 +1872,7 @@ Output
 
 
 
-## **# 10. PATTERN PRINTING**
+## **# 8. PATTERN PRINTING**
 
 
 
@@ -2004,15 +2196,15 @@ for(int i = 1; i <= 5; i++){
 
 
 
-&#x20;   for(int j = 1; j <= i; j++){
+\\\&#x20;   for(int j = 1; j <= i; j++){
 
-&#x20;       System.out.print(num++ + " ");
+\\\&#x20;       System.out.print(num++ + " ");
 
-&#x20;   }
+\\\&#x20;   }
 
 
 
-&#x20;   System.out.println();
+\\\&#x20;   System.out.println();
 
 }
 
@@ -2021,16 +2213,4 @@ for(int i = 1; i <= 5; i++){
 
 
 ==================================================================
-
-
-
-
-
-
-
-
-
-
-
-
 
