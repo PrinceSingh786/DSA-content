@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "5b604733a7e846bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ca27d4705010a61",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f2fc37bc0e743e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Intro to Programming/Intro to Prog..02.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Intro to Prog..02"
+            }
+          },
+          {
+            "id": "bce1e6b55179ed79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linked List 01.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linked List 01"
+            }
+          },
+          {
+            "id": "d974fdcc45f76569",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linked List 01.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linked List 01"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e966eff2a71ebd0b",
+    "type": "split",
+    "children": [
+      {
+        "id": "1dcd7c1fc13f8e3a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d7e94e2b28c66a4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cb01adc6c7df4340",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "249b6e1fe0919a7c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4449b872cb8a4473",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8d751e431db28ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f96120dc3b08deef",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Complexity Analysis/Time Complexity.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Time Complexity"
+            }
+          },
+          {
+            "id": "7f088b0a58163992",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Complexity Analysis/Time Complexity.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Time Complexity"
+            }
+          },
+          {
+            "id": "f96823ad2beef51f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "950aa163b17c1ddf",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e2eb9b932e63f6ef",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Complexity Analysis/Time Complexity.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Time Complexity"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "d974fdcc45f76569",
+  "lastOpenFiles": [
+    "Linked List 02.md",
+    "Linked List 01.md",
+    "Intro to Programming/Intro to Prog..02.md",
+    "Linked List",
+    "Intro to Programming/Intro to Prog..01.md",
+    "Complexity Analysis/Time Complexity.md",
+    "Welcome.md",
+    "Untitled.md",
+    "Mathematical problems",
+    "Complexity Analysis",
+    "Untitled",
+    "Intro to Programming"
+  ]
+}
