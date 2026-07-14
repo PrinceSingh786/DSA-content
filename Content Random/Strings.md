@@ -8,9 +8,9 @@
 
 &#x20;   ***char ch     alphabet hai ?***
 
-&#x20;   ***char ch      digit?***  
+&#x20;   ***char ch      digit?***
 
-### &#x20;   
+### &#x20;
 
 ### 
 
@@ -24,8 +24,8 @@
 4. s.**length**()  ?
 5. s1.**compareTo**(s2)==0  same    -ve , 0 , +ve   'apple' 'banana'   , 'apple' 'Apple'
 6. s1 = "hello" , s2 = "hello"  same object
-7. String s1 = new **String**("Tony")   different objects here 
-8. String s2 = new String("Tony")   s1**==**s2(reference comparison) ->false   but s1.**equals**(s2) (content comparison) is true
+7. String s1 = new **String**("Tony")   different objects here
+8. String s2 = new String("Tony")   s1\*\*==\*\*s2(reference comparison) ->false   but s1.**equals**(s2) (content comparison) is true
 9. &#x20;s1.**equalsIgnoreCase**(s2)
 10. s1.equals(s2)   =>false
 
@@ -33,7 +33,7 @@
 
 12\. s1.**contains**("Wic");           O(n)
 
-13\. s1.**startsWith**("John")         
+13\. s1.**startsWith**("John")
 
 14\. s1.**endsWith**("Wick")
 
@@ -49,7 +49,7 @@
 
 20\. s1.**trim**()  removes st and en spaces
 
-21\. s1.**isEmpty**()        
+21\. s1.**isEmpty**()
 
 22\. s1.**split**("WW");     return array of strings     O(n)
 
@@ -61,9 +61,17 @@
 
 **2.                       for(char c:s.toCharArray()) print(c)**
 
-**3. Reverse a string      string rev ="" rev+=s.charAt(i)  O(n^2)**
+**3. Count vowels and consonants**
 
-## &#x20;   **=> StringBuilder** 
+**4. Reverse a string         string rev ="" rev+=s.charAt(i)  O(n^2)**
+
+**5. reverse words in a string**
+
+**6. Longest Word in a Sentence ⭐ (Easy)**
+
+**7. Check if Two Strings are Rotations**
+
+## &#x20;   **=> StringBuilder**
 
 
 
@@ -85,11 +93,11 @@
 
 ### **Medium**
 
-1. **Print Frequency of Each Character**            
+1. **Print Frequency of Each Character**
 2. **Valid Anagram                              3.           using int\[26]**
 3. **Remove Consecutive Duplicate Characters**
-4. **Reverse Each Word**                                    
-5. **Longest Common Prefix                     2.**    
+4. **Reverse Each Word**
+5. **Longest Common Prefix                     2.**
 6. **Roman to Integer                          1.**
 7. **Remove Outermost Parentheses**
 
@@ -102,6 +110,4 @@
 3. **Longest Palindromic Substring**
 4. **Count Palindromic Substrings**
 5. **Minimum Window Substring**
-
-
 

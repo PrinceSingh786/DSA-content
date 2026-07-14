@@ -1,4 +1,4 @@
-  # 7. NESTED LOOPS
+  # **7. NESTED LOOPS**
 
 A nested loop is a loop inside another loop.
 
@@ -29,7 +29,7 @@ How many columns?
 ```java
 
 for(int i = 1; i <= 3; i++){
-
+   
    for(int j = 1; j <= 5; j++){
 
    System.out.print("*");
@@ -388,34 +388,246 @@ Print the following patterns using nested loops.
 
 ==================================================================
 
-### Pattern 15 (Floyd's Triangle)
 
-Output
+# More Pattern Printing Questions
 
+---
+
+## Pattern 15
+
+```
+A
+AB
+ABC
+ABCD
+ABCDE
+```
+
+---
+
+## Pattern 16
+
+```
+A
+BB
+CCC
+DDDD
+EEEEE
+```
+
+---
+
+## Pattern 17
+
+```
+ABCDE
+ABCD
+ABC
+AB
+A
+```
+
+
+---
+
+## Pattern 18
+
+```
+13579
+13579
+13579
+13579
+13579
+```
+
+---
+
+
+## Pattern 19
+
+```
+11111
+12222
+12333
+12344
+12345
+```
+
+---
+
+## Pattern 20
+
+```
+12345
+23451
+34512
+45123
+51234
+```
+
+---
+
+## Pattern 21
+
+```
 1
-
-2 3
-
-4 5 6
-
-7 8 9 10
-
+2  3
+4  5  6
+7  8  9  10
 11 12 13 14 15
+```
 
-int num = 1;
+---
 
-for(int i = 1; i <= 5; i++){
+## Pattern 22
 
-for(int j = 1; j <= i; j++){
+```
+5
+44
+333
+2222
+11111
+```
 
-System.out.print(num++ + " ");
+---
 
-}
 
-System.out.println();
+## Pattern 23
 
-}
+```
+11111
+12221
+12321
+12221
+11111
+```
 
+---
+
+
+
+## Pattern 24
+
+```
+10101
+10101
+10101
+10101
+10101
+```
+
+---
+
+## Pattern 25
+
+```
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+```
+
+---
+
+## Pattern 26
+
+```
+1
+12
+123
+1234
+12345
+1234
+123
+12
+1
+```
+
+---
+
+# Space-Based Patterns
+
+## Pattern 27
+
+```
+    *
+   **
+  ***
+ ****
+*****
+```
+
+---
+
+## Pattern 28
+
+```
+*****
+ ****
+  ***
+   **
+    *
+```
+
+---
+
+## Pattern 29
+
+```
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+```
+
+---
+
+
+## Pattern 30
+
+```
+    *
+   ***
+  *****
+ *******
+*********
+```
+
+---
+
+## Pattern 31
+
+```
+*********
+ *******
+  *****
+   ***
+    *
+```
+
+---
+
+## Pattern 32
+
+```
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+```
+
+---
 
 
 
@@ -440,11 +652,20 @@ Think of a TV remote.
 
 General Syntax:
 
-returnType methodName(parameters) {
+**returnType methodName(parameters) {**
 
-    // code
+    ****// code****
 
-}
+**}**
+
+
+==public static void greet(){==
+    ==System.out.println("Hello");==
+==}==
+
+==public static void main(String[] args){==
+    ==greet();==
+==}==
 
 Examples:
 
@@ -467,3 +688,12 @@ Practice Questions:
 4. Create a method to return the larger of two numbers.
 
 5. Create a method to check whether a number is even or odd.
+
+`public static void A(){`
+    `System.out.println("A");`
+`}`
+
+`public static void B(){`
+    `A();`
+    `System.out.println("B");`
+`}`
