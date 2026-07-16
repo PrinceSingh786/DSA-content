@@ -1,4 +1,4 @@
-   ## Operations
+     ## Operations
 
 - [Length of Linked List](https://www.geeksforgeeks.org/dsa/find-length-of-a-linked-list-iterative-and-recursive/)
 - [Print Linked List](https://www.geeksforgeeks.org/dsa/print-linked-list/)
@@ -13,17 +13,22 @@
 
 ## Easy Problems
 
-- [Remove every k-th node](https://www.geeksforgeeks.org/dsa/remove-every-k-th-node-linked-list/)[](https://www.geeksforgeeks.org/dsa/write-a-c-function-to-print-the-middle-of-the-linked-list/)
+
+
 - [Middle of a Linked List](https://www.geeksforgeeks.org/dsa/write-a-c-function-to-print-the-middle-of-the-linked-list/)
 - [Count Occurrences in a Linked List](https://www.geeksforgeeks.org/dsa/write-a-function-that-counts-the-number-of-times-a-given-int-occurs-in-a-linked-list/)
+-   Reverse linked list
+- Two numbers add in linked list
+- - [Remove every k-th node](https://www.geeksforgeeks.org/dsa/remove-every-k-th-node-linked-list/)
+- [Merge Two Sorted Linked Lists](https://www.geeksforgeeks.org/dsa/merge-two-sorted-linked-lists/)
 - [Circular Linked List Traversal](https://www.geeksforgeeks.org/dsa/traversal-of-circular-linked-list/)
 - [Check if Circular](https://www.geeksforgeeks.org/dsa/check-if-a-linked-list-is-circular-linked-list/)
+- Find node at which loop occurs
 - [Count Nodes in Circular List](https://www.geeksforgeeks.org/dsa/count-nodes-circular-linked-list/)
 - [Deletion from a Circular Linked List](https://www.geeksforgeeks.org/dsa/deletion-circular-linked-list/)
 - [Singly to circular Conversion](https://www.geeksforgeeks.org/dsa/convert-singly-linked-list-circular-linked-list/)
 - [Exchange first and last nodes in Circular](https://www.geeksforgeeks.org/dsa/exchange-first-last-node-circular-linked-list/)
 - [Delete in a Doubly Linked List](https://www.geeksforgeeks.org/dsa/delete-a-node-in-a-doubly-linked-list/)
-- [Reverse a Singly Linked List](https://www.geeksforgeeks.org/dsa/reverse-a-linked-list/)
 - [Reverse a Doubly Linked List](https://www.geeksforgeeks.org/dsa/reverse-a-doubly-linked-list/)
 
 ## Medium Problems
@@ -38,7 +43,7 @@
 - [Partition a List](https://www.geeksforgeeks.org/dsa/partitioning-a-linked-list-around-a-given-value-and-keeping-the-original-order/)
 - [QuickSort on Singly Linked List](https://www.geeksforgeeks.org/dsa/quicksort-on-singly-linked-list/)
 - [Split a Circular Linked List into two halves](https://www.geeksforgeeks.org/dsa/split-a-circular-linked-list-into-two-halves/)
-- [Merge Two Sorted Linked Lists](https://www.geeksforgeeks.org/dsa/merge-two-sorted-linked-lists/)
+
 - [Union and Intersection](https://www.geeksforgeeks.org/dsa/union-and-intersection-of-two-linked-lists/)
 - [Merge Sort for Doubly Linked List](https://www.geeksforgeeks.org/dsa/merge-sort-for-doubly-linked-list/)
 - [Pairs with Sum in doubly linked list](https://www.geeksforgeeks.org/dsa/find-pairs-given-sum-doubly-linked-list/)

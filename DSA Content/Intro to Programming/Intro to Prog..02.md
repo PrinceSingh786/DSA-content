@@ -388,11 +388,24 @@ Print the following patterns using nested loops.
 
 ==================================================================
 
+Repeat for n rows
+
+    Print numbers from 1 to n/2 + 1
+
+    Print numbers from n/2 down to 1
+
+    Move to the next line
+
 
 # More Pattern Printing Questions
 
 ---
 
+AAAAA
+BBBBB
+CCCCC
+DDDDD
+EEEEE
 ## Pattern 15
 
 ```
@@ -430,6 +443,11 @@ A
 
 ---
 
+==ABCDE==
+==BCDE==
+==CDE==
+==DE==
+==E==
 ## Pattern 18
 
 ```
@@ -458,11 +476,11 @@ A
 ## Pattern 20
 
 ```
-12345
-23451
-34512
-45123
-51234
+123451
+234512
+345123
+451234
+512345
 ```
 
 ---
@@ -492,7 +510,32 @@ A
 ---
 
 
+
+
 ## Pattern 23
+
+```
+10101
+10101
+10101
+10101
+10101
+```
+
+---
+
+## Pattern 24
+
+```
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+1 0 1 0 1
+0 1 0 1 0
+```
+
+---
+## Pattern 25
 
 ```
 11111
@@ -504,31 +547,6 @@ A
 
 ---
 
-
-
-## Pattern 24
-
-```
-10101
-10101
-10101
-10101
-10101
-```
-
----
-
-## Pattern 25
-
-```
-1 0 1 0 1
-0 1 0 1 0
-1 0 1 0 1
-0 1 0 1 0
-1 0 1 0 1
-```
-
----
 
 ## Pattern 26
 
@@ -558,17 +576,21 @@ A
 *****
 ```
 
+|Row|Spaces|Stars|
+|---|---|---|
+|1|4|1|
+|2|3|2|
+|3|2|3|
+|4|1|4|
+|5|0|5|
 ---
+Repeat i from 1 to n
 
-## Pattern 28
+    Print (n - i) spaces
 
-```
-*****
- ****
-  ***
-   **
-    *
-```
+    Print i stars
+
+    Move to next line
 
 ---
 
@@ -588,7 +610,7 @@ A
 
 ---
 
-
+![[Pasted image 20260716084601.png]]
 ## Pattern 30
 
 ```
@@ -628,8 +650,9 @@ A
 ```
 
 ---
+![[Pasted image 20260716084627.png]]
 
-
+![[Pasted image 20260716084725.png]]
 
 
 ### #FUNCTIONS

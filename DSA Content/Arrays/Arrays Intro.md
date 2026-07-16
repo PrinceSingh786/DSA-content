@@ -1,12 +1,16 @@
-# 9. ARRAYS
+> [!abstract] # 📦 9. ARRAYS
 
-## Definition
+---
+
+> [!info] ## Definition
 
 An array is a collection of elements of the **same data type** stored in **contiguous memory locations**.
 
 Instead of creating multiple variables, we can store all values in a single array.
 
-### Without Array
+---
+
+## 📝 Without Array
 
 ```java
 int a = 10;
@@ -16,7 +20,9 @@ int d = 40;
 int e = 50;
 ```
 
-### With Array
+---
+
+## 📝 With Array
 
 ```java
 int[] arr = {10, 20, 30, 40, 50};
@@ -24,27 +30,27 @@ int[] arr = {10, 20, 30, 40, 50};
 
 ---
 
-## Why Arrays?
+> [!tip] ## Why Arrays?
 
-- Store multiple values using one variable.
-- Easy to traverse using loops.
-- Less code.
-- Better organization of data.
+- ✅ Store multiple values using one variable.
+- ✅ Easy to traverse using loops.
+- ✅ Less code.
+- ✅ Better organization of data.
 
 ---
 
-## Array Index
+> [!info] ## Array Index
 
 Every element has an index.
 
 **Index always starts from 0.**
 
-```
+```text
 Index :   0   1   2   3   4
 Value :  10  20  30  40  50
 ```
 
-Example:
+### Example
 
 ```java
 int[] arr = {10,20,30,40,50};
@@ -56,7 +62,7 @@ System.out.println(arr[4]); // 50
 
 ---
 
-## Declaring an Array
+> [!success] ## Declaring an Array
 
 ```java
 int[] arr;
@@ -64,7 +70,7 @@ int[] arr;
 
 ---
 
-## Creating an Array
+> [!success] ## Creating an Array
 
 ```java
 int[] arr = new int[5];
@@ -72,14 +78,14 @@ int[] arr = new int[5];
 
 Initially,
 
-```
+```text
 Index : 0 1 2 3 4
 Value : 0 0 0 0 0
 ```
 
 ---
 
-## Declaration + Initialization
+> [!success] ## Declaration + Initialization
 
 ```java
 int[] arr = {10,20,30,40,50};
@@ -87,7 +93,7 @@ int[] arr = {10,20,30,40,50};
 
 ---
 
-## Assigning Values
+> [!success] ## Assigning Values
 
 ```java
 int[] arr = new int[5];
@@ -101,7 +107,7 @@ arr[4] = 50;
 
 ---
 
-## Printing Elements
+> [!example] ## Printing Elements
 
 ```java
 int[] arr = {10,20,30,40,50};
@@ -113,7 +119,7 @@ System.out.println(arr[2]);
 
 ---
 
-## Printing Using Loop
+> [!example] ## Printing Using Loop
 
 ```java
 int[] arr = {10,20,30,40,50};
@@ -123,7 +129,7 @@ for(int i=0;i<5;i++){
 }
 ```
 
-Better way:
+### 💡 Better Way
 
 ```java
 for(int i=0;i<arr.length;i++){
@@ -133,7 +139,7 @@ for(int i=0;i<arr.length;i++){
 
 ---
 
-## length Property
+> [!tip] ## `length` Property
 
 ```java
 int[] arr = {10,20,30,40,50};
@@ -141,15 +147,15 @@ int[] arr = {10,20,30,40,50};
 System.out.println(arr.length);
 ```
 
-Output
+### ✅ Output
 
-```
+```text
 5
 ```
 
 ---
 
-## Taking Input
+> [!example] ## Taking Input
 
 ```java
 Scanner sc = new Scanner(System.in);
@@ -163,7 +169,7 @@ for(int i=0;i<arr.length;i++){
 
 ---
 
-## Printing User Input
+> [!example] ## Printing User Input
 
 ```java
 for(int i=0;i<arr.length;i++){
@@ -173,3 +179,11 @@ for(int i=0;i<arr.length;i++){
 
 ---
 
+> [!important] ## 📌 Key Points
+
+- 📍 Arrays store elements of the **same data type**.
+- 📍 Array indexing always starts from **0**.
+- 📍 Elements are stored in **contiguous memory locations**.
+- 📍 Use **`arr.length`** instead of hardcoding the array size.
+- 📍 Arrays have a **fixed size** once created.
+- 📍 Loops are the easiest way to traverse an array.

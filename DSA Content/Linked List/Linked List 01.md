@@ -1,97 +1,184 @@
-# Very Very Basic (Node & Understanding)
+> [!abstract] # 🔗 Linked List Practice Sheet
 
-1. Create a Node class.
-2. Create a single node and print its data.
-3. Create two connected nodes.
-4. Create three connected nodes.
-5. Create five connected nodes manually.
-6. Traverse and print the linked list.
-7. Count the number of nodes.
-8. Find the sum of all nodes.
-9. Find the maximum element.
-10. Find the minimum element.
-11. Search for a given element.
-12. Check if the linked list is empty.
+Practice the problems in the given order. The questions are arranged from **Basic Operations → Easy Problems → Medium Problems**.
 
 ---
 
-# Very Basic (Traversal Practice)
+# 🟢 Basic Operations
 
-13. Print all nodes.
-14. Print alternate nodes.
-15. Print nodes at even positions.
-16. Print nodes at odd positions.
-17. Count even-valued nodes.
-18. Count odd-valued nodes.
-19. Count positive numbers.
-20. Count negative numbers.
-21. Count occurrences of a given value.
-22. Find the average of all nodes.
-23. Find the first node.
-24. Find the last node.
-25. Find the middle node (using length).
-26. Find the second largest element.
-27. Find the second smallest element.
-28. Check whether a value exists.
+> [!question] ## Operations
+
+### 📌 Basic Traversal & Searching
+
+- Length of Linked List
+- Print Linked List
+- Search in a Linked List
 
 ---
 
-# Basic (Insertion)
+### 📌 Insertion & Deletion
 
-29. Insert at the beginning.
-30. Insert at the end.
-31. Insert after a given value.
-32. Insert before a given value.
-33. Insert at a given position.
-34. Insert in a sorted linked list.
-35. Create a linked list from an array.
-36. Create a linked list from user input.
+- Linked List Insertion
+- Deleting a given key
+- Deleting at given position
+- Delete a Linked List
 
 ---
 
-# Basic (Deletion)
+### 📌 Position-Based Problems
 
-37. Delete the first node.
-38. Delete the last node.
-39. Delete a node with a given value.
-40. Delete a node at a given position.
-41. Delete all occurrences of a value.
-42. Delete even-valued nodes.
-43. Delete odd-valued nodes.
+- Nth Node from Start
+- Nth Node from End
 
 ---
 
-# Basic (Modification)
+### 📌 Doubly Linked List
 
-44. Update the value of a node.
-45. Replace every even number with 0.
-46. Replace every odd number with 1.
-47. Increment every node by 1.
-48. Multiply every node by 2.
-49. Square every node's value.
-50. Reverse the data values (without changing links).
+- Size of Doubly Linked List
 
 ---
 
-# Easy Logic Building
+# 🟡 Easy Problems
 
-51. Reverse the linked list (Iterative).
-52. Reverse the linked list (Recursive).
-53. Find the middle node (Slow & Fast Pointer).
-54. Find the Nth node from the beginning.
-55. Find the Nth node from the end (using length).
-56. Find the Nth node from the end (two pointers).
-57. Check whether the linked list is sorted.
-58. Compare two linked lists.
-59. Find the frequency of every element.
-60. Remove duplicate consecutive nodes (sorted list).
-61. Remove duplicates from an unsorted linked list (using HashSet).
-62. Merge two sorted linked lists.
-63. Find the intersection point of two linked lists.
-64. Detect a loop (Floyd's Cycle Detection).
-65. Find the starting node of a loop.
-66. Check whether the linked list is a palindrome.
-67. Rotate the linked list by K positions.
-68. Move the last node to the front.
-69. Move all even-valued nodes before odd-valued nodes.
-70. Split the linked list into two halves.
+> [!question] ## Easy Problems
+
+### 📌 Basic Manipulation
+
+- Remove every k-th node
+- Middle of a Linked List
+- Count Occurrences in a Linked List
+
+---
+
+### 📌 Circular Linked List
+
+- Circular Linked List Traversal
+- Check if Circular
+- Count Nodes in Circular List
+- Deletion from a Circular Linked List
+- Singly to Circular Conversion
+- Exchange First and Last Nodes in Circular Linked List
+
+---
+
+### 📌 Doubly Linked List
+
+- Delete in a Doubly Linked List
+- Reverse a Doubly Linked List
+
+---
+
+### 📌 Singly Linked List
+
+- Reverse a Singly Linked List
+
+---
+
+# 🟠 Medium Problems
+
+> [!question] ## Medium Problems
+
+### 📌 Pointer Manipulation
+
+- Swap Nodes in Pairs
+- Rotate a Linked List
+- Rotate Doubly Linked List by N Nodes
+
+---
+
+### 📌 Cycle Problems
+
+- Detect Loop in a Linked List
+- Length of Loop in Linked List
+
+---
+
+### 📌 Duplicate Problems
+
+- Remove Duplicates from a Sorted Linked List
+- Remove Duplicates from an Unsorted Linked List
+- Remove Duplicates from an Unsorted Doubly Linked List
+
+---
+
+### 📌 Merge & Intersection
+
+- Merge Two Sorted Linked Lists
+- Intersection of Two Sorted Linked Lists
+- Union and Intersection of Linked Lists
+
+---
+
+### 📌 Sorting
+
+- QuickSort on Singly Linked List
+- Merge Sort for Doubly Linked List
+- Insert in Sorted Way in Doubly Linked List
+
+---
+
+### 📌 Circular Linked List
+
+- Split a Circular Linked List into Two Halves
+
+---
+
+### 📌 Two Pointer / Miscellaneous
+
+- Partition a List
+- Delete a Node with Only Its Pointer Given
+- Pairs with Sum in Doubly Linked List
+- Segregate Even and Odd Nodes
+
+---
+
+### 📌 Design Problem
+
+- Design Browser History
+
+---
+
+> [!tip] ## 💡 Recommended Order
+
+```text
+Basic Operations
+        ↓
+Insertion & Deletion
+        ↓
+Reverse Linked List
+        ↓
+Middle Node
+        ↓
+Nth Node
+        ↓
+Cycle Detection
+        ↓
+Merge Two Lists
+        ↓
+Remove Duplicates
+        ↓
+Rotate Linked List
+        ↓
+Partition
+        ↓
+Sorting
+        ↓
+Browser History
+```
+
+---
+
+> [!success] ## 🎯 Learning Outcome
+
+After completing these problems, you should be comfortable with:
+
+- ✅ Linked List Traversal
+- ✅ Insertion & Deletion
+- ✅ Fast & Slow Pointer Technique
+- ✅ Reversing Linked Lists
+- ✅ Circular Linked Lists
+- ✅ Doubly Linked Lists
+- ✅ Cycle Detection (Floyd's Algorithm)
+- ✅ Merge & Intersection Problems
+- ✅ Sorting on Linked Lists
+- ✅ Interview-Level Linked List Questions

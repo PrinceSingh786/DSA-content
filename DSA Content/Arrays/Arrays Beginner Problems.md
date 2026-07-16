@@ -1,14 +1,16 @@
-# Array Practice Questions
+> [!abstract] # 📦 Array Practice Questions
+
+Practice these questions in order. The difficulty gradually increases from basic array traversal to simple interview-level problems.
 
 ---
 
-## Question 1
+> [!question] ## Question 1
 
 Print all elements of an array.
 
-Example
+### Example
 
-```
+```text
 Input
 
 10 20 30 40 50
@@ -20,13 +22,13 @@ Output
 
 ---
 
-## Question 2
+> [!question] ## Question 2
 
 Print the array in reverse order.
 
-Example
+### Example
 
-```
+```text
 Input
 
 10 20 30 40 50
@@ -38,13 +40,13 @@ Output
 
 ---
 
-## Question 3
+> [!question] ## Question 3
 
 Print only even elements.
 
-Example
+### Example
 
-```
+```text
 Input
 
 1 2 3 4 5 6
@@ -56,13 +58,13 @@ Output
 
 ---
 
-## Question 4
+> [!question] ## Question 4
 
 Print only odd elements.
 
-Example
+### Example
 
-```
+```text
 Input
 
 1 2 3 4 5 6
@@ -74,13 +76,13 @@ Output
 
 ---
 
-## Question 5
+> [!question] ## Question 5
 
 Print alternate elements from the end.
 
-Example
+### Example
 
-```
+```text
 Input
 
 10 20 30 40 50 60
@@ -92,13 +94,13 @@ Output
 
 ---
 
-## Question 6
+> [!question] ## Question 6
 
 Print the first half of the array.
 
-Example
+### Example
 
-```
+```text
 Input
 
 10 20 30 40 50 60
@@ -110,13 +112,13 @@ Output
 
 ---
 
-## Question 7
+> [!question] ## Question 7
 
 Print the second half of the array.
 
-Example
+### Example
 
-```
+```text
 Input
 
 10 20 30 40 50 60
@@ -128,13 +130,13 @@ Output
 
 ---
 
-## Question 8
+> [!question] ## Question 8
 
 Find the sum of all elements.
 
-Example
+### Example
 
-```
+```text
 Input
 
 1 2 3 4 5
@@ -146,13 +148,13 @@ Output
 
 ---
 
-## Question 9
+> [!question] ## Question 9
 
 Find the product of all elements.
 
-Example
+### Example
 
-```
+```text
 Input
 
 1 2 3 4
@@ -164,13 +166,13 @@ Output
 
 ---
 
-## Question 10
+> [!question] ## Question 10
 
 Find the average of all elements.
 
-Example
+### Example
 
-```
+```text
 Input
 
 2 4 6 8
@@ -182,13 +184,13 @@ Output
 
 ---
 
-## Question 11
+> [!question] ## Question 11
 
 Count even numbers.
 
-Example
+### Example
 
-```
+```text
 Input
 
 1 2 3 4 5 6
@@ -200,13 +202,13 @@ Output
 
 ---
 
-## Question 12
+> [!question] ## Question 12
 
 Count odd numbers.
 
-Example
+### Example
 
-```
+```text
 Input
 
 1 2 3 4 5 6
@@ -218,13 +220,13 @@ Output
 
 ---
 
-## Question 13
+> [!question] ## Question 13
 
 Find the largest element.
 
-Example
+### Example
 
-```
+```text
 Input
 
 5 1 8 2 3
@@ -236,13 +238,13 @@ Output
 
 ---
 
-## Question 14
+> [!question] ## Question 14
 
 Find the smallest element.
 
-Example
+### Example
 
-```
+```text
 Input
 
 5 1 8 2 3
@@ -254,13 +256,13 @@ Output
 
 ---
 
-## Question 15
+> [!question] ## Question 15
 
 Find both the maximum and minimum element.
 
-Example
+### Example
 
-```
+```text
 Input
 
 5 8 2 9 1
@@ -274,13 +276,13 @@ Minimum = 1
 
 ---
 
-## Question 16
+> [!question] ## Question 16
 
 Search for an element (Linear Search).
 
-Example
+### Example
 
-```
+```text
 Input
 
 Array
@@ -298,13 +300,13 @@ Found
 
 ---
 
-## Question 17
+> [!question] ## Question 17
 
 Check if an element exists.
 
-Example
+### Example
 
-```
+```text
 Input
 
 Array
@@ -322,13 +324,13 @@ Not Found
 
 ---
 
-## Question 18
+> [!question] ## Question 18
 
 Find the first occurrence of a given element.
 
-Example
+### Example
 
-```
+```text
 Input
 
 1 2 3 2 4 2
@@ -344,13 +346,13 @@ Output
 
 ---
 
-## Question 19
+> [!question] ## Question 19
 
 Find the last occurrence of a given element.
 
-Example
+### Example
 
-```
+```text
 Input
 
 1 2 3 2 4 2
@@ -366,13 +368,13 @@ Output
 
 ---
 
-## Question 20
+> [!question] ## Question 20
 
 Count how many times a number occurs.
 
-Example
+### Example
 
-```
+```text
 Input
 
 1 2 3 2 4 2 5
@@ -388,13 +390,13 @@ Output
 
 ---
 
-## Question 21
+> [!question] ## Question 21
 
 Replace every occurrence of a number.
 
-Example
+### Example
 
-```
+```text
 Input
 
 1 2 3 2 4
@@ -410,13 +412,13 @@ Output
 
 ---
 
-## Question 22
+> [!question] ## Question 22
 
 Check if the array is sorted in ascending order.
 
-Example
+### Example
 
-```
+```text
 Input
 
 1 2 3 4 5
@@ -428,13 +430,13 @@ Sorted
 
 ---
 
-## Question 23
+> [!question] ## Question 23
 
 Check if the array is sorted in descending order.
 
-Example
+### Example
 
-```
+```text
 Input
 
 5 4 3 2 1
@@ -446,13 +448,13 @@ Sorted
 
 ---
 
-## Question 24
+> [!question] ## Question 24
 
 Reverse the array.
 
-Example
+### Example
 
-```
+```text
 Input
 
 10 20 30 40 50
@@ -464,13 +466,13 @@ Output
 
 ---
 
-## Question 25
+> [!question] ## Question 25
 
 Find the second largest element.
 
-Example
+### Example
 
-```
+```text
 Input
 
 10 20 5 30 25
@@ -482,13 +484,13 @@ Output
 
 ---
 
-## Question 26
+> [!question] ## Question 26
 
 Find the second smallest element.
 
-Example
+### Example
 
-```
+```text
 Input
 
 10 20 5 30 25
@@ -500,13 +502,13 @@ Output
 
 ---
 
-## Question 27
+> [!question] ## Question 27
 
 Move all zeros to the end.
 
-Example
+### Example
 
-```
+```text
 Input
 
 1 0 3 0 5 0 2
@@ -518,13 +520,13 @@ Output
 
 ---
 
-## Question 28
+> [!question] ## Question 28
 
 Move all zeros to the beginning.
 
-Example
+### Example
 
-```
+```text
 Input
 
 1 0 3 0 5 0 2
@@ -536,13 +538,13 @@ Output
 
 ---
 
-## Question 29
+> [!question] ## Question 29
 
 Count duplicate elements in the array.
 
-Example
+### Example
 
-```
+```text
 Input
 
 1 2 2 3 4 4 4 5
@@ -551,3 +553,15 @@ Output
 
 Duplicate Elements = 3
 ```
+
+---
+
+> [!success] 🎯 Goal
+
+Complete all **29 questions** without using any advanced data structures. These problems will strengthen your understanding of:
+- Array Traversal
+- Searching
+- Counting
+- Updating Elements
+- Basic Array Manipulation
+- Logical Thinking
