@@ -1,4 +1,4 @@
-> [!abstract] ## 🚀 Why Optimization Matters
+ n> [!abstract] ## 🚀 Why Optimization Matters
 > Optimization means making a program **faster** and/or using **less memory**.
 >
 > The same problem can have multiple solutions, but some are much more efficient than others.

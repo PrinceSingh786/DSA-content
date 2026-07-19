@@ -245,7 +245,7 @@ Prefix Sum
 ## 🌳 Binary Search Tree
 
 - Insert
-- Delete
+- Delete 
 - Search
 - Traversals
 
