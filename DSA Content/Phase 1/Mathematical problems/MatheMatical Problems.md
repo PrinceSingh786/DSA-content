@@ -35,7 +35,7 @@ A structured roadmap to build mathematical problem-solving skills from **beginne
 
         for (int i = 1; i <= n; i++) {
             System.out.print(a + " ");
-
+  
             int next = a + b;
             a = b;
             b = next;

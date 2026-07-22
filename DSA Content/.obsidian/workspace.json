@@ -4,137 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4ca27d4705010a61",
+        "id": "7886f4c5ee4a343d",
         "type": "tabs",
         "children": [
           {
-            "id": "0f2fc37bc0e743e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Intro to Programming/Intro to Prog..02.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Intro to Prog..02"
-            }
-          },
-          {
-            "id": "bce1e6b55179ed79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Complexity Analysis/Time Complexity.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Time Complexity"
-            }
-          },
-          {
-            "id": "bee272d9d2920760",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Contest/Contest 01.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Contest 01"
-            }
-          },
-          {
-            "id": "d974fdcc45f76569",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Intro to Programming/Intro to Prog..02.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Intro to Prog..02"
-            }
-          },
-          {
-            "id": "f252d077e3fde67b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RoadMap.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "RoadMap"
-            }
-          },
-          {
-            "id": "db8fb2607b34faf4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Phase 1/Sorting.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sorting"
-            }
-          },
-          {
-            "id": "f49784830de0929c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Phase 1/Mathematical problems/MatheMatical Problems.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MatheMatical Problems"
-            }
-          },
-          {
-            "id": "e1ac7aedb16a254a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Phase 2/Collections/ArrayList.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ArrayList"
-            }
-          },
-          {
-            "id": "20d7631b3d551bc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Phase 2/Collections/LinkedList.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LinkedList"
-            }
-          },
-          {
-            "id": "7434da74815d3fd3",
+            "id": "9e1e7101ecca4b3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -148,119 +22,119 @@
             }
           },
           {
-            "id": "81d42074b5f808f5",
+            "id": "38e4d233e034cdd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phase 2/Collections/HashSet.md",
+                "file": "Problems/Array Problems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HashSet"
+              "title": "Array Problems"
             }
           },
           {
-            "id": "438b34442f065369",
+            "id": "38f34d83930e94b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phase 2/Collections/Stack.md",
+                "file": "Problems/HashMap Problems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stack"
+              "title": "HashMap Problems"
             }
           },
           {
-            "id": "2f203796d669e323",
+            "id": "1bea482b390c63e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phase 2/Collections/Queue.md",
+                "file": "Others/Contest/Contest 01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Queue"
+              "title": "Contest 01"
             }
           },
           {
-            "id": "72ef52cb3d7592fe",
+            "id": "4a7c5307ef51c87b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phase 2/Collections/Deque.md",
+                "file": "Others/Contest/Contest 02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deque"
+              "title": "Contest 02"
             }
           },
           {
-            "id": "668c137a27a787d6",
+            "id": "0ee7c832e1cfa4a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phase 2/Collections/Deque.md",
+                "file": "RoadMap/Detailed RoadMap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deque"
+              "title": "Detailed RoadMap"
             }
           },
           {
-            "id": "be464283305b40ab",
+            "id": "17cca74beeb44f3c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arrays/Arrays Beginner Problems.md",
+                "file": "RoadMap/Detailed RoadMap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arrays Beginner Problems"
+              "title": "Detailed RoadMap"
             }
           },
           {
-            "id": "3eabcb0052de6c0d",
+            "id": "325384a59d366c13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arrays/Arrays Two Pointers.md",
+                "file": "RoadMap/🚀 Data Structures & Algorithms Roadmap (Accelerated track).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arrays Two Pointers"
+              "title": "🚀 Data Structures & Algorithms Roadmap (Accelerated track)"
             }
           },
           {
-            "id": "29f27e6fc3ce4d8b",
+            "id": "b7bd1ccd08bc5966",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sorting.md",
+                "file": "RoadMap/🚀 Placement Preparation & Mentorship Program.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sorting"
+              "title": "🚀 Placement Preparation & Mentorship Program"
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -422,51 +296,54 @@
       "bases:Create new base": false
     }
   },
-  "active": "668c137a27a787d6",
+  "active": "17cca74beeb44f3c",
   "lastOpenFiles": [
+    "RoadMap/DSA RoadMap.md",
+    "RoadMap/🚀 Data Structures & Algorithms Roadmap-- Foundation to Advanced.md",
+    "Phase 2/Collections/TreeMap.md",
+    "RoadMap/🚀 Data Structures & Algorithms Roadmap (Accelerated track).md",
+    "RoadMap/🚀 Placement Preparation & Mentorship Program.md",
+    "RoadMap/Detailed RoadMap.md",
+    "RoadMap",
+    "Phase 2/Collections/HashSet.md",
+    "Phase 1/Mathematical problems/MatheMatical Problems.md",
+    "Phase 2/Collections/Problems on ArrayList,HashMap,HashSet.md",
+    "Phase 2/Collections/LinkedList.md",
+    "Others/Contest/Contest 02.md",
+    "Others/Contest/Contest 03.md",
+    "Others/Contest/Contest 01.md",
+    "Problems/HashMap Problems.md",
+    "Problems/ArrayList Problems.md",
+    "Problems/Array Problems.md",
+    "Phase 2/Collections/HashMap.md",
+    "Problems",
+    "Phase 1/Strings/Strings intro.md",
+    "Phase 1/1. Intro to Programming/Intro to Prog..01.md",
+    "C.md",
+    "Phase 3/Collections/TreeSet.md",
+    "Phase 3/Collections",
+    "Phase 3",
     "Phase 2/Collections/Priority queue.md",
     "Phase 2/Collections/Deque.md",
     "Phase 2/Collections/Queue.md",
     "Phase 2/Collections/Stack.md",
-    "Phase 2/Collections/HashSet.md",
-    "Phase 2/Collections/HashMap.md",
-    "Phase 2/Collections/LinkedList.md",
     "Phase 2/Collections/ArrayList.md",
-    "Phase 1/Mathematical problems/MatheMatical Problems.md",
     "Phase 2/Collections",
-    "Phase 2/Linked List/Linked List 02.md",
-    "Phase 2/Linked List/Linked List 01.md",
-    "Phase 1/Strings/Strings intro.md",
-    "RoadMap.md",
     "Others",
-    "Phase 1/Sorting.md",
     "Phase 2",
     "Phase 1",
-    "2026-07-16.md",
     "Pasted image 20260716084725.png",
     "Others/Untitled.canvas",
     "M",
-    "Others/Contest/Contest 01.md",
-    "Phase 1/Arrays/Arrays Intro.md",
-    "Phase 1/Intro to Programming/Intro to Prog..02.md",
-    "Phase 1/Complexity Analysis/Time Complexity.md",
     "Others/Contest",
     "Pasted image 20260716084627.png",
     "Pasted image 20260716084601.png",
-    "Phase 1/Strings",
-    "Phase 1/Arrays/Arrays Two Pointers.md",
-    "Phase 1/Intro to Programming/Intro to Prog..01.md",
-    "Phase 1/Arrays/Arrays Beginner Problems.md",
-    "Phase 1/Arrays",
-    "Welcome.md",
     "Pasted image 20260714204504.png",
     "Pasted image 20260714203848.png",
     "Pasted image 20260714203757.png",
     "Pasted image 20260714203656.png",
     "Pasted image 20260714204500.png",
     "Pasted image 20260714204454.png",
-    "Pasted image 20260714203823.png",
-    "Phase 2/Linked List",
-    "Phase 1/Mathematical problems"
+    "Pasted image 20260714203823.png"
   ]
 }

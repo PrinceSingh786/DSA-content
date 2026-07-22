@@ -1,4 +1,3 @@
-
 # 🟢 Phase 1 : Programming Fundamentals
 
 > [!info]
@@ -26,6 +25,14 @@
 - Character Patterns
 - Space Patterns
 - Mixed Patterns
+
+---
+
+## ⏱️ Time & Space Complexity
+
+- Time Complexity
+- Space Complexity
+- Big O Notation
 
 ---
 
@@ -106,6 +113,23 @@
 
 ---
 
+## ➕ Prefix Sum
+
+- Prefix Array
+- Range Sum
+- Pivot Index
+
+---
+
+## 🪟 Sliding Window
+
+- Fixed Window
+- Variable Window
+- Maximum Sum
+- Longest Subarray
+
+---
+
 ## 🔤 Strings
 
 - String
@@ -148,65 +172,6 @@
 
 ---
 
-# 🔵 Phase 5 : Array Techniques
-
-> [!tip]
-> These techniques appear frequently in coding interviews.
-
-## ➕
-
-Prefix Sum
-
-- Prefix Array
-- Range Sum
-- Pivot Index
-
----
-
-## 🪟 Sliding Window
-
-- Fixed Window
-- Variable Window
-- Maximum Sum
-- Longest Subarray
-
----
-
-# 🟣 Phase 6 : Recursion & Backtracking
-
-## 🔁 Recursion
-
-- Base Case
-- Recursive Calls
-- Factorial
-- Fibonacci
-- Binary Search
-- Recursion on Arrays
-- Recursion on Strings
-
----
-
-## 🌳 Backtracking ⭐
-
-- Rat in a Maze
-- N Queens
-- Sudoku Solver
-- Permutations
-- Combinations
-- Subsets
-
----
-
-# 🟤 Phase 7 : Linear Data Structures
-
-## 🔗 Linked List
-
-- Singly Linked List
-- Doubly Linked List
-- Circular Linked List
-
----
-
 ## 📚 Stack
 
 - Stack Operations
@@ -222,32 +187,11 @@ Prefix Sum
 
 ---
 
-## 🔄 Deque ⭐
+## 🔄 Deque
 
 - Front Operations
 - Rear Operations
 - Sliding Window Maximum
-
----
-
-# 🟠 Phase 8 : Trees
-
-## 🌲 Trees
-
-- Binary Tree
-- DFS Traversals
-- BFS Traversal
-- Height
-- Diameter
-
----
-
-## 🌳 Binary Search Tree
-
-- Insert
-- Delete 
-- Search
-- Traversals
 
 ---
 
@@ -260,6 +204,72 @@ Prefix Sum
 
 ---
 
+# 🟣 Phase 5 : Recursion & Backtracking
+
+## 🔁 Recursion
+
+- Base Case
+- Recursive Calls
+- Factorial
+- Fibonacci
+- Binary Search
+- Recursion on Arrays
+- Recursion on Strings
+
+---
+
+## 🌳 Backtracking
+
+- Rat in a Maze
+- N Queens
+- Sudoku Solver
+- Permutations
+- Combinations
+- Subsets
+
+---
+
+# 🟣 Phase 6 : Object-Oriented Programming
+
+- Classes & Objects
+- Constructors
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
+- Interfaces
+
+---
+
+# 🟤 Phase 7 : Linked List
+
+## 🔗 Linked List
+
+- Singly Linked List
+- Doubly Linked List
+- Circular Linked List
+
+---
+
+# 🟠 Phase 8 : Trees
+
+## 🌲 Binary Tree
+
+- DFS Traversals
+- BFS Traversal
+- Height
+- Diameter
+
+---
+
+## 🌳 Binary Search Tree
+
+- Insert
+- Delete
+- Search
+- Traversals
+
+---
 
 # 🔴 Phase 9 : Graphs
 
@@ -271,13 +281,13 @@ Prefix Sum
 - Cycle Detection
 - Topological Sort
 - Shortest Path
-- MST
+- Minimum Spanning Tree (MST)
 
 ---
 
 # 🟡 Phase 10 : Algorithms
 
-## 💰 Greedy Algorithms ⭐
+## 💰 Greedy Algorithms
 
 - Activity Selection
 - Fractional Knapsack
@@ -309,7 +319,8 @@ Prefix Sum
 - Power of Two
 
 ---
-## 🌐 Trie ⭐
+
+## 🌐 Trie
 
 - Insert
 - Search
@@ -318,10 +329,9 @@ Prefix Sum
 
 ---
 
-
 # 🟢 Phase 11 : Advanced Data Structures
 
-## 🔗 Disjoint Set Union (Union-Find) ⭐
+## 🔗 Disjoint Set Union (Union-Find)
 
 - Find
 - Union
@@ -330,7 +340,7 @@ Prefix Sum
 
 ---
 
-## 🌲 Segment Tree ⭐
+## 🌲 Segment Tree
 
 - Build
 - Query
@@ -338,7 +348,7 @@ Prefix Sum
 
 ---
 
-## 🌳 Fenwick Tree (BIT) ⭐
+## 🌳 Fenwick Tree (BIT)
 
 - Prefix Sum
 - Update
@@ -348,7 +358,7 @@ Prefix Sum
 
 > [!success] 🎯 Placement Ready
 >
-> After completing all these topics and solving sufficient problems on each, you'll be well-prepared for:
+> After completing these topics and solving sufficient problems on each, you'll be well-prepared for:
 >
 > - ✅ Campus Placements
 > - ✅ Coding Assessments

@@ -5,5 +5,5 @@
 3. Check whether a number is Perfect Number or not
 4. Leader in an array  
 5. Check if string is rotated or not?
-6. Container with most water 
+
 
